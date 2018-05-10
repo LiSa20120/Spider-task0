@@ -16,7 +16,7 @@ arr[j+1]=temp;
 }
 }
 int main()
-{//Lisa 106117044
+{//lisa 106117044
 int arr[]={36,46,23,78,34,89};
 int n=sizeof(arr),i;
 bubblesort(arr,n);
@@ -24,4 +24,5 @@ printf("Sorted array:");
 for(i=0;i<n;i++)
 printf("%d",arr[i]);
 return 0;
+
 } 
